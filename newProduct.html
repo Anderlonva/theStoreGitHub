@@ -5,55 +5,65 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
-    <title>The Store</title>
+    <link rel="stylesheet" href="index.css">
+    <title>TheStore</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
 </head>
 
 <body>
-    <header>
+    <div class="container">
+
+
         <nav>
-            <div>
-                <a href="index.html" style="text-decoration: none; color:red; font-family: Shadows Into Light, cursive; font-size:25px">
-                    <h1>TheStore</h1>
-                </a>
-            </div>
-            <div>
-                <ul>
+            <div class="nav-wrapper">
+                <a href="index.html" class="brand-logo logo">TheStore</a>
+
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
                     <li><a href="index.html">Products</a></li>
-                    <li><a href="">Car</a></li>
-                    <li><a href="">Login</a></li>
+                    <li><a href="#">Car</a></li>
+                    <li><a href="#">Login</a></li>
                     <li><a href="newProduct.html">New Product</a></li>
                 </ul>
+
+
             </div>
         </nav>
-    </header>
 
-    <main>
-        <div>
-            <h2 style="color:red; font-family: Shadows Into Light, cursive">TheStore</h2>
-            <form>
-                <label for="name">Name:</label>
-                <input type="text" name="name">
-
-                <label for="price">Price:</label>
-                <input type="number" name="price">
-
-                <label for="inventory">Inventory:</label>
-                <input type="number" name="inventory">
-
-                <button>Create Product</button>
-
-            </form>
+        <div class="row">
+            <div class="col s12 m6 l4 input-field">
+                <label for="">Nombre Producto</label>
+                <input type="text" name="" id="">
+            </div>
+            <div class="col s12 m6 l2 input-field">
+                <label for="">Cantidad</label>
+                <input type="number" name="" id="">
+            </div>
+            <div class="col s12 m6 l2 input-field">
+                <label for="">Inventory</label>
+                <input type="number" name="" id="">
+            </div>
+            <div class="col s6 m6 l4 ">
+                <a class="btn boton-createProduct">create Product</a>
+            </div>
         </div>
-    </main>
-
-    <footer>
-
-    </footer>
 
 
+
+
+
+
+
+
+    </div>
+
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>
 
 </html>
