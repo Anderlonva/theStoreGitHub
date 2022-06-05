@@ -16,16 +16,14 @@
     <title>TheStore</title>
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
-   
-    <script src="js/index.js"></script>
 </head>
 
-<body >
-    <div class="container contenedor">
+<body>
+    <div class="container ">
 
         <header>
             <nav class="color-nav">
-                <div class="nav-wrapper">
+                <div class="nav-wrapper ">
                     <a href="index.html" class="brand-logo logo">TheStore</a>
                     <a href="#" data-target="menu-hamburguesa" class="sidenav-trigger"><i
                             class="material-icons">menu</i></a>
@@ -45,39 +43,19 @@
                 </ul>
             </nav>
         </header>
-
         <main>
-            <div class="row formulario">
-                <form action="">
-                <div class="col s12 m10 l10 input-field">
-                    <label for="">Nombre Producto</label>
-                    <input type="text" name="nombre" id="validarNombre">
-                    <span id="errorNombre" class="error"></span>
-                </div>
-                <div class="col s12 m10 l10 input-field">
-                    <label for="">Cantidad</label>
-                    <input type="number" name="cantidad" id="validarCantidad">
-                    <span id="errorCantidad" class="error"></span>
-                </div>
-                <div class="col s12 m10 l10 input-field">
-                    <label for="">Inventory</label>
-                    <input type="number" name="inventory" id="validarInventory">
-                    <span id="errorInventory" class="error"></span>
-                </div>
-                <div class="col s6 m6 l4 ">
-                    <input type="submit" value="Create Product" class="btn boton-createProduct" onclick='return validarFormulario(this.form)'>
-                </div>
-            </form>
+            <div id="carrito">
+                
             </div>
         </main>
-
     </div>
+
+
     <div class="container">
         <footer class="page-footer pieDePagina">
             <div class="wrapper">
                 <div>
                     © 2022 Anderson Londoño
-                
                     <a class="grey-text text-lighten-4 right gitHub"
                     href="https://github.com/Anderlonva/theStoreGitHub.git" target="_blanck">
                     <i class='bx bxl-github bx-sm'></i> 
@@ -88,8 +66,14 @@
     </div>
 
 
+
+
+
+
+    <script src="js/car.js" type="module"></script>
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
 
     <script>
         document.addEventListener("DOMContentLoaded", function () {
