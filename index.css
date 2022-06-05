@@ -48,9 +48,21 @@ footer{
 .pieDePagina{
     padding: 10px;
     background-color:red;
+    height: 40px;
 }
 
 .contenedor{
     height: 93vh;
 }
 
+.error {
+    color: red
+}
+
+.formulario{
+    margin: 60px;
+}
+
+i{
+   width:20px;
+}
